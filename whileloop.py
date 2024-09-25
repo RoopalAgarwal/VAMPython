@@ -51,14 +51,6 @@ while c >= 1:
     c-=5  
 
 # print the pattern 1 7 19 25
-# d = 1
-# while d <= 25:
-#     if d==13:
-#         continue
-#     else: 
-#        print(d)
-#     d+=6
-
 d=1
 while d < 26:
     if d!=13:
