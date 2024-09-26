@@ -1,0 +1,14 @@
+#WAP if gender is female and age is greater than 18 -> govt job apply
+# else male and age is greater than 18 -> private job apply        
+ 
+gender=input("Enter your gender: ")
+age=int(input("Enter your age: "))
+if age > 18: 
+   if gender == "Female": 
+     print("You can apply for govt job")
+   elif gender == "Male":
+     print("You can apply for private job")
+   else:
+     print("Sorry there is no opening")  
+else:
+  print("You are under age")   
