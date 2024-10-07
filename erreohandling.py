@@ -40,4 +40,4 @@ email = "roopalk04@gmail.com"
 try:
     total = amount + email
 except TypeError:
-    print("Error 5 - String and integer cannot be concatenated")
+    print("Error 5 - String and integer cannot be concatenated")    
